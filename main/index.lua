@@ -27,7 +27,7 @@ local placeScripts = {
 
     [107778070777162] = function()
         task.spawn(function()
-            loadstring(game:HttpGet("@"))()
+            loadstring(game:HttpGet("https://shadow-lyart-omega.vercel.app/main/more/egg.lua"))()
         end)
     end,
     [12] = function()
