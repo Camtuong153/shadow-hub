@@ -35,7 +35,7 @@ local placeScripts = {
             loadstring(game:HttpGet("https://shadow-lyart-omega.vercel.app/main/blox/fruit.lua"))()
         end)
     end,
-    [2753915549] = function()
+    [12001] = function()
         task.spawn(function()
             pcall(function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/aibabylaugh/catsaken-real-script-not-assets/refs/heads/main/obfuscated-1448974601077002340.lua"))()
